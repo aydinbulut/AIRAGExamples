@@ -1,0 +1,14 @@
+{
+    "type": "module",
+    "dependencies": {
+        "@langchain/community": "^0.3.40",
+        "@langchain/ollama": "^0.2.0",
+        "axios": "^1.8.4",
+        "cheerio": "^1.0.0",
+        "express": "^5.1.0",
+        "langchain": "^0.3.21",
+        "multer": "^1.4.5-lts.2",
+        "ollama": "^0.5.14",
+        "pdf-parse": "^1.1.1"
+    }
+}
