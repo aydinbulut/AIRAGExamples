@@ -25,7 +25,7 @@ async function main() {
         chunkOverlap: 0,
     });
     const splits = await textSplitter.splitDocuments(docs);
-    console.log("splitTheDoc completed");
+    console.log("splitTheDoc completed, total chunks: " + splits.length);
 
     // Step 3 - Vectorize the document chunks
     // This is where the document chunks are converted into vectors
