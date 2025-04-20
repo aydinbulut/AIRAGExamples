@@ -91,7 +91,6 @@ async function generateResponseWithPersistedVectors(question) {
         name: collectionName,
         embeddingFunction: ollama_embedding_function
     });
-    const all = await collection.get({});
     console.log("Vectors loaded from ChromaDB");
 
     // Step 6 - Perform semantic search
