@@ -71,7 +71,7 @@ for (const subQuestion of subQuestions) {
     new SystemMessage(
       `You are a helpful assistant that answers questions.`
     ),
-    new SystemMessage(subQuestion),
+    new HumanMessage(subQuestion),
   ]);
 
   // Note: There could be an actual retrieval step here to get the context for the sub-question from a knowledge base or other sources
