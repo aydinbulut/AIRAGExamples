@@ -1,3 +1,8 @@
+/**
+ * @file contains functions to generate synthetic data for testing purposes.
+ * It uses the Faker library to create random data for various entities.
+ */
+
 import { faker } from '@faker-js/faker';
 
 export function createRandomBook() {
