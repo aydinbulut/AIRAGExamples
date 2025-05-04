@@ -2,10 +2,12 @@
     "type": "module",
     "dependencies": {
         "@langchain/community": "^0.3.40",
+        "@langchain/core": "^0.3.51",
         "@langchain/ollama": "^0.2.0",
         "axios": "^1.8.4",
         "chromadb": "^2.2.1",
         "chromadb-default-embed": "^2.14.0",
+        "dotenv": "^16.5.0",
         "langchain": "^0.3.24",
         "ollama": "^0.5.14",
         "pdf-parse": "^1.1.1",
