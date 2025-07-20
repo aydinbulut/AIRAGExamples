@@ -41,6 +41,10 @@ This example does the same thing done in `pdfContext.js`, but it uses `ChromaDB`
 
 Creates a summary for a given web page
 
+### 4. agent
+
+Simple example of creating an agent with LangGraph which handles the tool calling part instead of doing it explicitly unlikely it is the case in llmWithTools example.
+
 
 ## rag/concepts
 
